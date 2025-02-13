@@ -12,21 +12,21 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
+      "ew nooo",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
+      "MA TIMI LAI BIRSANA SAKDINA",
+      "Oh no timi yo k vandaichau pari",
+      "haat khutta joddiii",
+      "What about a kisssiiiiee",
+      "FAGUNIYAAAA",
+      "EHHH FAGUNIYAAAA",
+      "TUU HAMARA JAAAN HEY REY",
+      "JAAAAAAN ❤️ ",
+      "AMISHAAA PLEASE",
       "please babe",
       ":((((",
       "PRETTY PLEASE",
-      "Estoy muerto",
+      "I will cry",
       "No :(",
     ];
 
@@ -37,14 +37,19 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img 
+  src="https://i.ibb.co/KpbjqvGn/476807842-597633863151553-3839185870232821858-n.jpg" 
+  alt="Valentine" 
+  className="w-1/2 max-w-[300px] rounded-lg"
+/>
+
+          <div className="my-4 text-4xl font-bold">Woooooooo now you may kiss your Valentine ;)</div>
         </>
       ) : (
         <>
           <img
-            className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            className="h-[600px]"
+            src="https://i.ibb.co/Z1JjjRJL/Group-344.png"
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
